@@ -31,8 +31,8 @@ This library is capable of returning the following information:
 - Remaining state of charge, 0-100 percent
 - Charge FET on/off status
 - Discharge FET on/off status
-- # of batteries in series (int)
-- # of NTCS [the number of temperature sensors present] (int)
+- /# of batteries in series (int)
+- /# of NTCS [the number of temperature sensors present] (int)
 - Temperatures of each temperature sensor, in Celsius (up to 16 floats)
 - Voltages of each cell, in volts
 - Protection status flags:
