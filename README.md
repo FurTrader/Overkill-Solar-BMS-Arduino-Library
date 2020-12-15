@@ -1,4 +1,4 @@
-Overkill Solar BMS Monitor Library
+Overkill Solar BMS Monitor Library V0.0.8 (beta, read only)
 ==================================
 
 Note: there is an extended tutorial within the "documentation" folder.
