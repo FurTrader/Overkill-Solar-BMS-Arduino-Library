@@ -1,7 +1,7 @@
 Overkill Solar BMS Monitor Library
 ==================================
 
-Note: there is an extended tutorial within the "documents" folder.
+Note: there is an extended tutorial within the "documentation" folder.
 
 Introduction
 ------------
