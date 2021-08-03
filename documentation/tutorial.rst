@@ -569,7 +569,7 @@ and count up.
     // Print out all cell voltages:
     for (uint8_t i=0; i<bms.get_num_cells(); i++) {
         // Print each voltage with 3 decimal places
-        lcd.println(bms.get_cell_voltage(i, 3));  
+        lcd.println(bms.get_cell_voltage(i), 3);  
     }
 
 
@@ -620,7 +620,7 @@ Temperatures can be requested as follows:
     // Print out all temperatures:
     for (uint8_t i=0; i<bms.get_num_ntcs(); i++) {
         // Print each temp with 2 decimal places
-        lcd.println(bms.get_ntc_temperature(i, 2));  
+        lcd.println(bms.get_ntc_temperature(i), 2);  
     }
 
 Temperatures are always return in Celsius.

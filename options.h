@@ -13,8 +13,8 @@
 
 #define BMS_TIMEOUT         1000  // The longest time to wait, in milliseconds for a response
 
-#define BMS_MAX_CELLS       8  // Preallocates this number of cells voltages in the array
-#define BMS_MAX_NTCs        2  // Preallocates this number of temperatures in the array
+#define BMS_MAX_CELLS       16  // Preallocates this number of cells voltages in the array
+#define BMS_MAX_NTCs        4  // Preallocates this number of temperatures in the array
 #define BMS_MAX_RX_DATA_LEN 64  // Preallocates this number of bytes to store RX data field
 
 
