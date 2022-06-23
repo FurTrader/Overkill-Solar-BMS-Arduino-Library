@@ -1,3 +1,7 @@
+**I suggest using the BMS2 full read write version, find it here: https://github.com/FurTrader/Overkill-Solar-BMS_2-Arduino-Library**
+
+This version will not be updated again.
+
 Overkill Solar BMS Monitor Library V0.0.8 (beta, read only)
 ==================================
 
