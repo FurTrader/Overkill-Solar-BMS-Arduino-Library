@@ -348,10 +348,10 @@ void OverkillSolarBms::set_mosfet_control(bool charge, bool discharge) {
     data[0] = 0b11;
     data[1] = 0;
     if (charge) {
-        data[0] &= 0b10;
+        data[1] &= 0b10;
     }
     if (discharge) {
-        data[0] &= 0b01;
+        data[1] &= 0b01;
     }
 
     write(true, BMS_REG_CTL_MOSFET, length, data);
